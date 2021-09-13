@@ -1,0 +1,27 @@
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fefefe;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+
+    h2 {
+        text-align: center;
+        padding-bottom: 24px;
+    }
+
+    .modal-footer {
+        padding-top: 24px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+}
